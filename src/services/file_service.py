@@ -1,4 +1,5 @@
 import csv
+import os
 from typing import List, Set, Tuple
 from models.employee import Employee
 
@@ -80,6 +81,9 @@ class FileService:
             Exception: If there are issues with writing to the file.
         """
         try:
+            
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            
             with open(filepath, mode="w", newline="") as f:
                 fieldnames = [
                     "Employee_Name",
