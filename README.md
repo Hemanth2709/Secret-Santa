@@ -28,12 +28,18 @@ pytest
 ### current_employees.csv
 ```
 Employee_Name,Employee_EmailID
-Alice,alice@acme.com
-Bob,bob@acme.com
+Hamish Murray,hamish.murray@acme.com
+..
+..
+..
+..
+Matthew King,matthew.king.jr@acme.com
+Mark Lawrence,mark.lawrence@acme.com
 ```
 
 ### previous_assignments.csv
 ```
 Employee_Name,Employee_EmailID,Secret_Child_Name,Secret_Child_EmailID
-Alice,alice@acme.com,Bob,bob@acme.com
+Hamish Murray,hamish.murray@acme.com,Matthew King,matthew.king@acme.com,
+Layla Graham,layla.graham@acme.com,Matthew King,matthew.king@acme.com
 ```
