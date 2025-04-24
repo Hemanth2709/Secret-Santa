@@ -1,6 +1,7 @@
 from models.employee import Employee
 from services.assignment_service import AssignmentService
 
+
 def test_assignment_no_self_assignment():
     """
     Test case to ensure no employee is assigned to themselves.
